@@ -4,6 +4,9 @@ title: "r-dev-environment"
 
 # R Dev Container
 
+These are changes which have been made in the web editor which, with any luck, should be rendered into gh-pages and then appear directly on the github pages site.
+
+
 MINOR CHANGE
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=613269999&machine=premiumLinux&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
