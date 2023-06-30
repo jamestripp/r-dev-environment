@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nI have changed this to test the workflow.\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "r-dev-environment",
@@ -26,12 +33,5 @@
     "title": "r-dev-environment",
     "section": "",
     "text": "R in Visual Studio code\nVSCode R Wiki\nGetting started with Dev Containers\nInstall Docker Desktop\nInstalling Docker on Linux\nDev Container DocumentationThis is a Quarto website.\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\nI have changed this to test the workflow.\n\n1 + 1\n\n[1] 2"
   }
 ]
