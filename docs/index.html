@@ -135,7 +135,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#r-dev-container" id="toc-r-dev-container" class="nav-link active" data-scroll-target="#r-dev-container">R Dev Container</a>
+  <ul class="collapse">
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a>
+  <ul class="collapse">
+  <li><a href="#codespaces" id="toc-codespaces" class="nav-link" data-scroll-target="#codespaces">Codespaces</a></li>
+  </ul></li>
+  <li><a href="#running-r" id="toc-running-r" class="nav-link" data-scroll-target="#running-r">Running R</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful Links</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -157,7 +171,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
+<section id="r-dev-container" class="level1">
+<h1>R Dev Container</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://github.com/codespaces/new?hide_repo_select=true&amp;ref=main&amp;repo=613269999&amp;machine=premiumLinux&amp;devcontainer_path=.devcontainer%2Fdevcontainer.json&amp;location=WestUs2"><img src="https://github.com/codespaces/badge.svg" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Open in GitHub Codespaces</figcaption>
+</figure>
+</div>
+<p>A containerised development environment for editing and compiling the R source code. The environment contains the VSCode IDE and tools needed to compile R.</p>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
+<p>You can run this environment on GitHub using <a href="https://github.com/features/codespaces">codespaces</a></p>
+<section id="codespaces" class="level3">
+<h3 class="anchored" data-anchor-id="codespaces">Codespaces</h3>
+<p>Click on the ‘Open in GitHub Codespaces’ button and then click the green ‘Create Codespace’ button.</p>
+<p align="center">
+</p><p><img src="screenshots/create_codespace.png" width="80%"></p>
+<p></p>
+<p>The codespace setup screen will then be shown. Starting the container may take a minute or so.</p>
+<p align="center">
+</p><p><img src="screenshots/setting_up_codespace.png" width="80%"></p>
+<p></p>
+<p>You will be taken to a VSCode editor within your browser.</p>
+<p align="center">
+</p><p><img src="screenshots/vscode_in_codespace.png" width="80%"></p>
+<p></p>
+</section>
+</section>
+<section id="running-r" class="level2">
+<h2 class="anchored" data-anchor-id="running-r">Running R</h2>
+<p>Create a file in VS Code ending with a .R extension. You can create new files by clicking on the new file icon in VS Code.</p>
+<p align="center">
+</p><p><img src="screenshots/plus_file_icon.png" width="80%"></p>
+<p></p>
+<p>Open the file by clicking on the filename. You should see R:(note attached) in the bottom bar.</p>
+<p align="center">
+</p><p><img src="screenshots/unattached_r.png" width="80%"></p>
+<p></p>
+<p>Click on the R:(note attached) button to launch R in the terminal. You can then send code from the .R file to the termianl r by pressing cmd + enter.</p>
+<p align="center">
+</p><p><img src="screenshots/running_r_code.png" width="80%"></p>
+<p></p>
+</section>
+<section id="useful-links" class="level2">
+<h2 class="anchored" data-anchor-id="useful-links">Useful Links</h2>
+<ul>
+<li><p><a href="https://code.visualstudio.com/docs/languages/r">R in Visual Studio code</a></p></li>
+<li><p><a href="https://github.com/REditorSupport/vscode-R/wiki">VSCode R Wiki</a></p></li>
+<li><p><a href="https://code.visualstudio.com/docs/devcontainers/tutorial">Getting started with Dev Containers</a></p></li>
+<li><p><a href="https://www.docker.com/products/docker-desktop/">Install Docker Desktop</a></p></li>
+<li><p><a href="https://docs.docker.com/desktop/install/linux-install/">Installing Docker on Linux</a></p></li>
+<li><p><a href="https://code.visualstudio.com/docs/devcontainers/containers">Dev Container Documentation</a>This is a Quarto website.</p></li>
+</ul>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -167,6 +233,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
